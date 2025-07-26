@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dragon JavaScript Game</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="gamecontainer" id="game">
+    
+    <!-- Score -->
+    <div id="scoreBoard">Your Score: <span id="scoreValue">0</span></div>
+
+    <!-- Game Over Overlay -->
+    <div id="gameOverOverlay">
+      <h1>Game Over</h1>
+      <p>Final Score: <span id="finalScore">0</span></p>
+      <button id="restartBtn">Restart</button>
+      <p class="hint">(Press Enter to restart)</p>
+    </div>
+
+    <!-- Player (Rabbit) -->
+    <div class="rabbit" id="rabbit"></div>
+
+    <!-- Obstacle (Dragon) -->
+    <div class="obstacle obstacleAni" id="dragon"></div>
+
+  </div>
+</body>
+</html>
